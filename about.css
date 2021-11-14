@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    background-color: rgb(187, 218, 152);
+}
+
+#head {
+    background-color: rgb(168, 154, 154);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#parag {
+    margin: 10px;
+    padding: 5px;
+}
+
+.pa {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#lst {
+    padding-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pic {
+    border: 3px solid maroon;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+#short {
+    text-align: center;
+}
+
+#sug {
+    margin-left: 700px;
+}
