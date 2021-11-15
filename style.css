@@ -75,6 +75,7 @@ a:hover {
     border: 3px solid rgb(199, 38, 240);
     background-color: rgb(247, 201, 201);
     position: relative;
+    transition: transform 2s;
 }
 
 #nav_link {
