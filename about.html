@@ -10,14 +10,16 @@
 </head>
 
 <body id="bod">
-    <h1 id="head">Welcome to My Personal e-portfolio</h1>
+    <h1 id="head">Welcome to My Personal Biodata Pages</h1>
     <h2>More about me....</h2>
     <div class="content">
-        <div id="parag" class="pa">My name is Arjun kumar. I have done B. Tech in Electronics and Communication Engineering from National Institute of Technology Mizoram. I grew up in small village just inside madhubani . my wonderful and loving parents that have supported me
+        <div id="parag" class="pa">My name is Arjun kumar. I have done B. Tech in Electronics and Communication Engineering from National Institute of Technology Mizoram. I grew up in small village just inside Madhubani . My wonderful and loving parents that have supported me
             in all of my endeavors as well as two elders brothers that have been such incredible role models as I have grown up . I have a passion for software engineer ,staying active and serving company is somethings I work hard to fit into my job.
             I have taken training on C, JAVA and Full Stack Web Development Bootcamp. I am trying to get job to grow and learning as an individual to make my life happy.
             <p>If you'd like to hire me, enquire about me or give me feedback of any kind, I'll be delighted to hear from you. I'm on email, and will answer all your questions through a DM if that is more practical for you!!!</p>
             <img id="sug" src="img/sug.png">
+             <div>To Get Email <button onclick="setmail()">click Here</button></div>
+            <div id="put"></div>
         </div>
         <div id="parag" class="pa">
             <img id="pic" src="img/biopic.jpeg" alt="My Bio Picture"><br>
@@ -38,6 +40,11 @@
 
         </div>
     </div>
+    <script>
+        function setmail() {
+            document.getElementById("put").innerHTML = "Email<br>arjunkumarnit1998@gmail.com<br> Thank You";
+        }
+    </script>
 </body>
 
 </html>
