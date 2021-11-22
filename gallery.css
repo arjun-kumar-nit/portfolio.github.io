@@ -1,14 +1,38 @@
 body {
+    display: flex;
     margin-left: 50px;
     padding: 0;
-    display: flex;
     background-color: rgb(141, 92, 57);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#pho {
+    background-color: lawngreen;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    text-align: center;
 }
 
 #photos {
     margin: 0;
     border: 2px solid maroon;
     border-radius: 4px;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
