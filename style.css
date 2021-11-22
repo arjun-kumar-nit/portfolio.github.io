@@ -121,6 +121,33 @@ a:hover {
     margin-left: 85%;
     color: brown;
 }
+.par {
+    margin-left: 50px;
+}
+#sugg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 30px;
+    width: fit-content;
+    height: fit-content;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(0, 96, 99);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    z-index: 400634163416;
+    position: fixed;
+    border: 5px solid rgb(255, 0, 0);
+}
+button:hover {
+    transition-duration: 2s;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+
 
 .footer {
     background-color: rgb(184, 181, 181);
