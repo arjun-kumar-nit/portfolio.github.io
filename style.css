@@ -138,7 +138,6 @@ a:hover {
     border-bottom-right-radius: 20px;
     background-color: rgb(0, 96, 99);
     color: white;
-    -webkit-font-smoothing: antialiased;
     z-index: 400634163416;
     position: fixed;
     border: 5px solid rgb(255, 0, 0);
