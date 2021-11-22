@@ -115,15 +115,15 @@ a:hover {
     max-width: 55%;
     font-size: 25px;
 }
-
-#bye {
-    margin-top: -30px;
-    margin-left: 85%;
-    color: brown;
 }
 .par {
     margin-left: 40px;
 }
+#bye {
+    margin-top: -30px;
+    margin-left: 85%;
+    color: brown;
+
 #sugg {
     display: flex;
     flex-direction: column;
