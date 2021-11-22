@@ -75,7 +75,6 @@ a:hover {
     border: 3px solid rgb(199, 38, 240);
     background-color: rgb(247, 201, 201);
     position: relative;
-    transition: transform 2s;
 }
 
 #nav_link {
@@ -89,7 +88,7 @@ a:hover {
 }
 
 a:hover {
-   transition-duration: 2s;
+    transition-duration: 2s;
     color: black;
     font-size: 30px;
 }
@@ -115,14 +114,15 @@ a:hover {
     max-width: 55%;
     font-size: 25px;
 }
+
 .par {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 #bye {
     margin-top: -30px;
     margin-left: 85%;
-    color: brown;
+    color: maroon;
 }
 
 #sugg {
