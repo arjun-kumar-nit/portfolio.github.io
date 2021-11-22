@@ -115,8 +115,6 @@ a:hover {
     max-width: 55%;
     font-size: 25px;
 }
-
-}
 .par {
     margin-left: 40px;
 }
@@ -126,6 +124,7 @@ a:hover {
     margin-left: 85%;
     color: brown;
 }
+
 #sugg {
     display: flex;
     flex-direction: column;
@@ -142,13 +141,13 @@ a:hover {
     position: fixed;
     border: 5px solid rgb(255, 0, 0);
 }
+
 button:hover {
     transition-duration: 2s;
     font-size: 14px;
     color: white;
     background-color: black;
 }
-
 
 .footer {
     background-color: rgb(184, 181, 181);
