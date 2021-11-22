@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+
+<body>
+    <label id="lab">Select Video for Watch =></label>
+    <select id="sel" type="text">
+        <option>Hostel-II Holi dance Video-2018</option>
+        <option>Mizoram-View at NIT B-III</option>
+        <option>Mizoram-View at NIT B-IV</option>
+        <option>Sports Dance video at NIT Hostel-I</option>
+        <option>Mizoram Waterfall at NIT-Hostel-I</option>
+        <option>NIT Cultural-Fest Dance Video-2018</option>
+        <option>Sports Video at Hostel-I</option>
+        <option>Mizoram Krishna Mandir pooja at Hostel-I</option>
+        <option>Mizoram Waterfall Sliding Video at NIT-Hostel-I</option>
+        <option>Mizoram Waterfall at NIT-Hostel-I</option>
+        <option>Waterfall Sliding at NIT-Hostel-I</option>
+    </select>
+    <button onclick="myfun()">Start Play</button>
+    <br>
+    <br>
+    <video id="videoset" src="" height="600px" width="1000px" controls>
+        <source src="https://drive.google.com/file/d/1dnMu-HFKpZ5Zzwu1yrf-vshJEAVKjhyf/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1dnMu-HFKpZ5Zzwu1yrf-vshJEAVKjhyf/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1hnyi8eslezjinYFGo01StQJiq3h9apCg/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1kl5vNzkwAPKbyomX9iNkxfQEN6fb7gCE/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1We4vaWvD3nqmUwTsMt7hLGgAFnq6gZ0H/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1ecexDaVZU62zO50RLMlavjo-rZA9nPvr/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1mF6xeviuZ4PPkk4NOU7oMSd02OKMpJP0/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/16X1Zk5zoEKcIDtPoeKKuuB7f_-iPaxlP/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1hB_VFbrtH-c4v-pCY4aO3j89CLoMYu3h/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/1qrzzWQbpR2j7raiFOjhJIHwz4GK-JWBB/view?usp=sharing" type="video/mp4">
+        <source src="https://drive.google.com/file/d/17kmWXliyakfF4QFtbcNyxd_S9OgMLFKr/view?usp=sharing" type="video/mp4">
+    </video>
+    <script>
+        function myfun() {
+            let x = document.getElementById("sel").selectedIndex;
+            let vid = document.getElementById('videoset');
+            console.log(x);
+
+            if (x === 0) {
+                vid.src = "https://drive.google.com/file/d/1dnMu-HFKpZ5Zzwu1yrf-vshJEAVKjhyf/view?usp=sharing";
+            }
+            if (x === 1) {
+                vid.src = "https://drive.google.com/file/d/1dnMu-HFKpZ5Zzwu1yrf-vshJEAVKjhyf/view?usp=sharing";
+            }
+            if (x === 2) {
+                vid.src = "https://drive.google.com/file/d/1hnyi8eslezjinYFGo01StQJiq3h9apCg/view?usp=sharing";
+            }
+            if (x === 3) {
+                vid.src = "https://drive.google.com/file/d/1kl5vNzkwAPKbyomX9iNkxfQEN6fb7gCE/view?usp=sharing";
+            }
+            if (x === 4) {
+                vid.src = "https://drive.google.com/file/d/1We4vaWvD3nqmUwTsMt7hLGgAFnq6gZ0H/view?usp=sharing";
+            }
+            if (x === 5) {
+                vid.src = "https://drive.google.com/file/d/1ecexDaVZU62zO50RLMlavjo-rZA9nPvr/view?usp=sharing";
+            }
+            if (x === 6) {
+                vid.src = "https://drive.google.com/file/d/1mF6xeviuZ4PPkk4NOU7oMSd02OKMpJP0/view?usp=sharing";
+            }
+            if (x === 7) {
+                vid.src = "https://drive.google.com/file/d/1mF6xeviuZ4PPkk4NOU7oMSd02OKMpJP0/view?usp=sharing";
+            }
+            if (x === 8) {
+                vid.src = "https://drive.google.com/file/d/1hB_VFbrtH-c4v-pCY4aO3j89CLoMYu3h/view?usp=sharing";
+            }
+            if (x === 9) {
+                vid.src = "https://drive.google.com/file/d/1qrzzWQbpR2j7raiFOjhJIHwz4GK-JWBB/view?usp=sharing";
+            }
+            if (x === 10) {
+                vid.src = "https://drive.google.com/file/d/17kmWXliyakfF4QFtbcNyxd_S9OgMLFKr/view?usp=sharing";
+            }
+
+            vid.load();
+        }
+    </script>
+</body>
+
+</html>
