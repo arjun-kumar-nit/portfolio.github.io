@@ -108,8 +108,24 @@ a:hover {
     padding-bottom: 0rem;
     margin-bottom: 0rem;
     font-size: 40px;
+    width: 4ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: myname 4s steps(20) infinite alternate;
+    border-right: 3px solid black;
 }
 
+@keyframes myname {
+    0% {
+        width: 4ch;
+    }
+    50% {
+        width: 20ch;
+    }
+    100% {
+        width: 20ch;
+    }
+}
 #parag {
     max-width: 55%;
     font-size: 25px;
