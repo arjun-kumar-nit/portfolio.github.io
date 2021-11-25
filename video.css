@@ -16,6 +16,12 @@
         color: rgb(247, 243, 2);
         border-radius: 10px;
     }
+  #author {
+        color: yellow;
+        font-size: 20px;
+        margin-top: 0;
+        padding-top: 0;
+    }
     
     button {
         font-size: 15px;
